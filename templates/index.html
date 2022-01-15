@@ -9,7 +9,7 @@
 
 <body>
 
-    <div style="color:blue">
+    <div style="color:rgb(255, 215, 0)">
         <form action="{{ url_for('predict')}}" method="post">
             <h2>Predictive analysis</h2>
             <h3>Year</h3>
@@ -30,7 +30,7 @@
                 <option value="Mannual">Manual Car</option>
                 <option value="Automatic">Automatic Car</option>
             </select>
-            <br><br><button id="sub" type="submit ">Calculate the Selling Price</button>
+            <br><br><button id="sub" type="submit ">Get Selling Price</button>
             <br>
 
 
@@ -48,7 +48,7 @@
 
     <style>
         body {
-            background-color: lightslategray;
+            background-color: rgb(148, 0, 211);
             text-align: center;
             padding: 0px;
         }
@@ -66,7 +66,7 @@
             border-style: solid;
             font-family: cursive;
             text-align: center;
-            background-color: rgb(168, 131, 61);
+            background-color: rgb(233, 165, 39);
             font-size: medium;
             position: absolute;
             width: 700px;
